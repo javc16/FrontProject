@@ -4,7 +4,8 @@ import { TipoUsuarioComponent } from './Components/tipo-usuario/tipo-usuario.com
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { CreateTipoUsuarioComponent } from './Components/tipo-usuario/create-tipo-usuario/create-tipo-usuario.component';
-import { ProveedorComponent } from './Components/proveedor/listado/proveedor.component';
+import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
+import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'proveedor',
     component: ProveedorComponent
+  },
+  {
+    path: 'agregarproveedor',
+    component: AgregarComponent
   }
 ];
 

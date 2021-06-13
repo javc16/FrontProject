@@ -30,4 +30,8 @@ export class ProveedorComponent implements OnInit {
     })
   }
 
+  agregar(){
+    this.router.navigate(['agregarproveedor']);
+  }
+
 }

@@ -1,0 +1,42 @@
+<br>
+<br>
+<h1>Agregar Proveedor</h1>
+<form name="myForm">
+<div class="form-group">
+    <mat-label>Nombre </mat-label><tr></tr>
+    <input name="nombre" type="text" class="form-control" >
+
+    <mat-label>Apellido </mat-label><tr></tr>
+    <input name="apellido" type="text" class="form-control" >
+
+    <mat-label>Email </mat-label><tr></tr>
+    <input name="email" type="text" class="form-control" >
+
+    <mat-label>Telefono </mat-label><tr></tr>
+    <input name="telefono" type="text" class="form-control" >
+
+    <mat-label>Empresa </mat-label><tr></tr>
+    <input name="empresa" type="text" class="form-control" >
+
+    <mat-label>Direccion</mat-label><tr></tr>
+    <input name="direccion" type="text" class="form-control" >
+
+    <mat-label>Estado </mat-label><tr></tr>
+    <input name="estado" type="text" class="form-control" >
+
+</div>
+</form>
+<br>
+<br>
+
+<mat-card-actions>
+
+
+    <button mat-raised-button color="warn" mattooltip="df" type="button" (click)="cancel()" style="margin-right: 10px;">
+        <i class='fa fa-times fa-fw'></i> Cancel
+    </button>
+
+    <button mat-raised-button color="accent" class="marginButton" mattooltip="df" type="button">
+        <i class='fa fa-save fa-fw'></i> Save
+    </button>
+</mat-card-actions>

@@ -14,7 +14,8 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ProveedorComponent } from './Components/proveedor/listado/proveedor.component';
+import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
+import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProveedorComponent } from './Components/proveedor/listado/proveedor.com
     CreateTipoUsuarioComponent,
     NavbarComponent,
     FooterComponent,
-    ProveedorComponent
+    ProveedorComponent,
+    AgregarComponent
   ],
   imports: [
     BrowserModule,
