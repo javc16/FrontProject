@@ -10,19 +10,27 @@ import { AngularMaterialModule } from './angular-material.module';
 import { TipoUsuarioComponent } from './Components/tipo-usuario/tipo-usuario.component';
 import { EditTipoUsuarioComponent } from './Components/tipo-usuario/edit-tipo-usuario/edit-tipo-usuario.component';
 import { CreateTipoUsuarioComponent } from './Components/tipo-usuario/create-tipo-usuario/create-tipo-usuario.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     TipoUsuarioComponent,
     EditTipoUsuarioComponent,
-    CreateTipoUsuarioComponent
+    CreateTipoUsuarioComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularMaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
