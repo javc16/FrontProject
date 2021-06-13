@@ -11,7 +11,15 @@ import {Router} from '@angular/router'
 export class ProveedorComponent implements OnInit {
 
   proveedores:Proveedor [] = [];
-  displayedColumns: string[] = ['id', 'descripcion','action'];
+  displayedColumns: string[] = ['Id',
+                                'Nombre',
+                                'Apellido',
+                                'Email',
+                                'Telefono',
+                                'Empresa',
+                                'Direccion',
+                                'Estado',
+                                'action'];
 
   constructor(private _proveedorService:ProveedorService,private router: Router) {}
 
@@ -21,10 +29,5 @@ export class ProveedorComponent implements OnInit {
       console.log(this.proveedores);
     })
   }
-
-  create(){
-    this.router.navigate(['creartipousuario']);
-  }
-
 
 }

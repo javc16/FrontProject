@@ -4,6 +4,8 @@ import { TipoUsuarioComponent } from './Components/tipo-usuario/tipo-usuario.com
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { CreateTipoUsuarioComponent } from './Components/tipo-usuario/create-tipo-usuario/create-tipo-usuario.component';
+import { ProveedorComponent } from './Components/proveedor/proveedor.component';
+
 const routes: Routes = [
   {
     path: 'tipoUsuario',
@@ -13,6 +15,10 @@ const routes: Routes = [
     path: 'creartipousuario',
     component: CreateTipoUsuarioComponent,
   },
+  {
+    path: 'proveedor',
+    component: ProveedorComponent,
+  }
 ];
 
 @NgModule({

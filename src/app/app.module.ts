@@ -14,6 +14,7 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProveedorComponent } from './Components/proveedor/proveedor.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     EditTipoUsuarioComponent,
     CreateTipoUsuarioComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ProveedorComponent
   ],
   imports: [
     BrowserModule,

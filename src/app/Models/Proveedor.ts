@@ -6,6 +6,7 @@ export class Proveedor{
     Nombre: string,
     Apellido: string,
     Email: string,
+    Telefono: string,
     Empresa: string,
     Direccion: string,
     Estado: number,
