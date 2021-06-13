@@ -6,7 +6,7 @@ import {Router} from '@angular/router'
 @Component({
   selector: 'app-proveedor',
   templateUrl: './proveedor.component.html',
-  styleUrls: ['./proveedor.component.css']
+  styleUrls: []
 })
 export class ProveedorComponent implements OnInit {
 

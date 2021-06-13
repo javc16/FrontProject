@@ -4,7 +4,7 @@ import { TipoUsuarioComponent } from './Components/tipo-usuario/tipo-usuario.com
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { CreateTipoUsuarioComponent } from './Components/tipo-usuario/create-tipo-usuario/create-tipo-usuario.component';
-import { ProveedorComponent } from './Components/proveedor/proveedor.component';
+import { ProveedorComponent } from './Components/proveedor/listado/proveedor.component';
 
 const routes: Routes = [
   {
@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {
     path: 'proveedor',
-    component: ProveedorComponent,
+    component: ProveedorComponent
   }
 ];
 
