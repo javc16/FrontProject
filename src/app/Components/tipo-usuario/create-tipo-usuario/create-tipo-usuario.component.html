@@ -4,7 +4,7 @@
 <form name="myForm">
 <div class="form-group">
     <mat-label>Descripcion: </mat-label><tr></tr>
-    <input name="descripcion" type="text" class="form-control" >
+    <input name="descripcion" type="text" class="form-control" [(ngModel)]="descripcion">
 </div>
 </form>
 <br>
@@ -17,7 +17,7 @@
         <i class='fa fa-times fa-fw'></i> Cancel
     </button>
 
-    <button mat-raised-button color="accent" class="marginButton" mattooltip="df" type="button">
+    <button mat-raised-button color="accent" class="marginButton" mattooltip="df" type="button" (click)="create()">
         <i class='fa fa-save fa-fw'></i> Save
     </button>
 </mat-card-actions>

@@ -16,6 +16,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { AgregarComponent } from './Components/proveedor/agregar/agregar.compone
     AngularMaterialModule,
     HttpClientModule,
     MDBBootstrapModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

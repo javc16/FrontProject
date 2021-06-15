@@ -13,7 +13,7 @@ export class TipoUsuarioService {
 
   {
 
-    this.url =  "https://demo.evdapps.com/api/TipoUsuario";
+    this.url =  "http://demo.evdapps.com/api/TipoUsuario";
 
   }
 
@@ -23,5 +23,11 @@ export class TipoUsuarioService {
 
   create(tipoUsuario: TipoUsuario) {
     return this.http.post(this.url, tipoUsuario);
+  }
+
+  
+  delete(tipoUsuario: TipoUsuario){
+    debugger;    
+    return this.http.put(this.url, tipoUsuario);
   }
 }

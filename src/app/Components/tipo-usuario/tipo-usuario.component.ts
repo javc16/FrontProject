@@ -25,5 +25,15 @@ export class TipoUsuarioComponent implements OnInit {
     this.router.navigate(['creartipousuario']);
   }
 
+  delete(tipoUsuario:TipoUsuario) {  
+    this._tipoUsuarioService.delete(tipoUsuario)
+      .subscribe((res: any) => {
+        this._tipoUsuarioService.getData().subscribe((res: any[])=>{
+          this.tipoUssuarios= res;          
+        })
+        
+      });     
+  }
+
 
 }
