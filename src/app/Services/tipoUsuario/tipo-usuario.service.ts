@@ -13,7 +13,7 @@ export class TipoUsuarioService {
 
   {
 
-    this.url =  "http://demo.evdapps.com/api/TipoUsuario";
+    this.url =  "http://38.17.54.162:8083/api/tipousuario";
 
   }
 
