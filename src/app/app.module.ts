@@ -17,6 +17,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 import { FormsModule } from '@angular/forms';
+import { TipoArticuloComponent } from './Components/tipo-articulo/tipo-articulo.component';
+import { CreateTipoArticuloComponent } from './Components/tipo-articulo/create-tipo-articulo/create-tipo-articulo.component';
+import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-articulo/edit-tipo-articulo.component';
 
 
 @NgModule({
@@ -28,7 +31,10 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     ProveedorComponent,
-    AgregarComponent
+    AgregarComponent,
+    TipoArticuloComponent,
+    CreateTipoArticuloComponent,
+    EditTipoArticuloComponent
   ],
   imports: [
     BrowserModule,
