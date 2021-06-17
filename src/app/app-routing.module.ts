@@ -8,8 +8,18 @@ import { ProveedorComponent } from './Components/proveedor/lista/proveedor.compo
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 import { TipoArticuloComponent } from './Components/tipo-articulo/tipo-articulo.component';
 import { CreateTipoArticuloComponent } from './Components/tipo-articulo/create-tipo-articulo/create-tipo-articulo.component';
+import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.component';
+import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
 
 const routes: Routes = [
+  {
+    path: 'tipoServicio',
+    component: TipoServicioComponent,
+  },
+  {
+    path: 'creartiposervicio',
+    component: CreateTipoServicioComponent,
+  },
   {
     path: 'tipoArticulo',
     component: TipoArticuloComponent,

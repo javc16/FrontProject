@@ -20,6 +20,8 @@ import { FormsModule } from '@angular/forms';
 import { TipoArticuloComponent } from './Components/tipo-articulo/tipo-articulo.component';
 import { CreateTipoArticuloComponent } from './Components/tipo-articulo/create-tipo-articulo/create-tipo-articulo.component';
 import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-articulo/edit-tipo-articulo.component';
+import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.component';
+import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-
     AgregarComponent,
     TipoArticuloComponent,
     CreateTipoArticuloComponent,
-    EditTipoArticuloComponent
+    EditTipoArticuloComponent,
+    TipoServicioComponent,
+    CreateTipoServicioComponent
   ],
   imports: [
     BrowserModule,
