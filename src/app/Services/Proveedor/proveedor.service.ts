@@ -37,8 +37,8 @@ export class ProveedorService {
     return this.http.put(`${this.url}/proveedor/${id}`, updateProveedor);
   }
 
-  deleteProveedor(id: string){
-    return this.http.delete(`${this.url}/proveedor/${id}`);
+  deleteProveedor(proveedor:Proveedor){
+    return this.http.put(`${this.url}/delete`, proveedor);
   }
 
 }

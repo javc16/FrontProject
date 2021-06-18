@@ -32,13 +32,16 @@ export class ProveedorComponent implements OnInit {
     })
   }
 
-//   eliminar(id: number){
-//     if(confirm('Esta seguro que desea eliminar el registro?')){
-//       this._proveedorService.eliminar(id).subscribe(data =>{
-//         this._proveedorService.getData();
-//       })
-//   }
-// }
+  eliminar(proveedores:Proveedor){
+    if(confirm('Esta seguro que desea eliminar el registro?')){
+      this._proveedorService.deleteProveedor(proveedores).subscribe(data =>{
+        this._proveedorService.getData().subscribe((data:any[])=>{
+          this.proveedores=data;
+          console.log(this.proveedores);
+        })
+      })
+  }
+}
 
   agregar(){
     this.router.navigate(['agregarproveedor']);
