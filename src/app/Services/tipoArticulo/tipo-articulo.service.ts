@@ -20,13 +20,13 @@ export class TipoArticuloService {
     return this.http.get<TipoArticulo[]>(this.url);
   }
 
-  create(tipoUsuario: TipoArticulo) {
-    return this.http.post(this.url, tipoUsuario);
+  create(tipoArticulo: TipoArticulo) {
+    return this.http.post(this.url, tipoArticulo);
   }
 
-  delete(tipoUsuario: TipoArticulo){
+  delete(tipoArticulo: TipoArticulo){
     debugger;    
-    return this.http.put(this.url, tipoUsuario);
+    return this.http.put(this.url, tipoArticulo);
   }
 
 }

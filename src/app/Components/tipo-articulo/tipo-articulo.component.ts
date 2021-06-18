@@ -26,14 +26,16 @@ export class TipoArticuloComponent implements OnInit {
     this.router.navigate(['creartipoarticulo']);
   }
 
-  delete(tipoArticulo:TipoArticulo) {  
-    this._tipoArticuloService.delete(tipoArticulo)
-      .subscribe((res: any) => {
-        this._tipoArticuloService.getData().subscribe((res: any[])=>{
-          this.tipoArticulos= res;          
+
+  delete(tipoArticulo:TipoArticulo){
+    if(confirm('Esta seguro que desea eliminar el registro?')){
+      this._tipoArticuloService.delete(tipoArticulo).subscribe(data =>{
+        this._tipoArticuloService.getData().subscribe((data:any[])=>{
+          this.tipoArticulos=data;
+          console.log(this.tipoArticulos);
         })
-        
-      });     
+      })
   }
+}
 
 }
