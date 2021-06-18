@@ -4,8 +4,8 @@ import { ProveedorService } from 'src/app/Services/Proveedor/proveedor.service';
 import {Router} from '@angular/router'
 
 @Component({
-  selector: 'app-proveedor',
-  templateUrl: './proveedor.component.html',
+  selector: 'app-lista-proveedor',
+  templateUrl: './lista-proveedor.component.html',
   styleUrls: []
 })
 export class ProveedorComponent implements OnInit {

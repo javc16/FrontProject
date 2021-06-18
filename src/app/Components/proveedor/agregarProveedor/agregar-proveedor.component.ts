@@ -1,16 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { HostBinding } from '@angular/core';
 
 import { ProveedorService } from 'src/app/Services/Proveedor/proveedor.service';
 import { Proveedor } from '../../../Models/Proveedor';
 
 @Component({
   selector: 'app-agregar',
-  templateUrl: './agregar.component.html',
+  templateUrl: './agregar-proveedor.component.html',
   styles: [
   ]
 })
 export class AgregarComponent implements OnInit {
+
+  vista: any=[];
 
   nombre!:string;
   apellido!:string;

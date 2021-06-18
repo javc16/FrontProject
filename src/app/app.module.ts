@@ -14,8 +14,8 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
-import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
+import { ProveedorComponent } from './Components/proveedor/listaProveedor/lista-proveedor.component';
+import { AgregarComponent } from './Components/proveedor/agregarProveedor/agregar-proveedor.component';
 import { FormsModule } from '@angular/forms';
 import { VistaprincipalComponent } from './Components/proveedor/vistaprincipal/vistaprincipal.component';
 import { RecomendacionComponent } from './Components/recomendacion/recomendacion.component';
@@ -31,6 +31,8 @@ import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-
 import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.component';
 import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
 import { ToastrModule } from 'ngx-toastr';
+import { UsuarioComponent } from './Components/usuario/agregarUsuario/agregar-usuario.component';
+import { ListaUsuarioComponent } from './Components/usuario/listaUsuario/lista-usuario.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,6 @@ import { ToastrModule } from 'ngx-toastr';
 
     VistaprincipalComponent,
 
-
     RecomendacionComponent,
     MaestroProveedorComponent,
     DashboardComponent,
@@ -58,7 +59,9 @@ import { ToastrModule } from 'ngx-toastr';
     CreateTipoArticuloComponent,
     EditTipoArticuloComponent,
     TipoServicioComponent,
-    CreateTipoServicioComponent
+    CreateTipoServicioComponent,
+    UsuarioComponent,
+    ListaUsuarioComponent
 
   ],
   imports: [
