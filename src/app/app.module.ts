@@ -33,6 +33,8 @@ import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-t
 import { ToastrModule } from 'ngx-toastr';
 import { UsuarioComponent } from './Components/usuario/agregarUsuario/agregar-usuario.component';
 import { ListaUsuarioComponent } from './Components/usuario/listaUsuario/lista-usuario.component';
+import { ServicioComponent } from './Components/servicio/servicio.component';
+import { CreateServicioComponent } from './Components/servicio/create-servicio/create-servicio.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +63,9 @@ import { ListaUsuarioComponent } from './Components/usuario/listaUsuario/lista-u
     TipoServicioComponent,
     CreateTipoServicioComponent,
     UsuarioComponent,
-    ListaUsuarioComponent
+    ListaUsuarioComponent,
+    ServicioComponent,
+    CreateServicioComponent
 
   ],
   imports: [

@@ -13,8 +13,18 @@ import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.
 import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
 import { UsuarioComponent } from './Components/usuario/agregarUsuario/agregar-usuario.component';
 import { ListaUsuarioComponent } from './Components/usuario/listaUsuario/lista-usuario.component';
+import { ServicioComponent } from './Components/servicio/servicio.component';
+import { CreateServicioComponent } from './Components/servicio/create-servicio/create-servicio.component';
 
 const routes: Routes = [
+  {
+    path: 'createservicio',
+    component: CreateServicioComponent,
+  },
+  {
+    path: 'servicio',
+    component: ServicioComponent,
+  },
   {
     path: 'usuario',
     component: UsuarioComponent,
