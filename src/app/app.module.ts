@@ -18,6 +18,19 @@ import { ProveedorComponent } from './Components/proveedor/lista/proveedor.compo
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 import { FormsModule } from '@angular/forms';
 import { VistaprincipalComponent } from './Components/proveedor/vistaprincipal/vistaprincipal.component';
+import { RecomendacionComponent } from './Components/recomendacion/recomendacion.component';
+import { MaestroProveedorComponent } from './Components/maestro-proveedor/maestro-proveedor.component';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import { CreateRecomendacionComponent } from './Components/recomendacion/create-recomendacion/create-recomendacion.component';
+import { EditRecomendacionComponent } from './Components/recomendacion/edit-recomendacion/edit-recomendacion.component';
+import { CrearMaestroProveedorComponent } from './Components/maestro-proveedor/crear-maestro-proveedor/crear-maestro-proveedor.component';
+import { EditMaestroProveedorComponent } from './Components/maestro-proveedor/edit-maestro-proveedor/edit-maestro-proveedor.component';
+import { TipoArticuloComponent } from './Components/tipo-articulo/tipo-articulo.component';
+import { CreateTipoArticuloComponent } from './Components/tipo-articulo/create-tipo-articulo/create-tipo-articulo.component';
+import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-articulo/edit-tipo-articulo.component';
+import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.component';
+import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +42,24 @@ import { VistaprincipalComponent } from './Components/proveedor/vistaprincipal/v
     FooterComponent,
     ProveedorComponent,
     AgregarComponent,
-    VistaprincipalComponent
+
+    VistaprincipalComponent,
+
+
+    RecomendacionComponent,
+    MaestroProveedorComponent,
+    DashboardComponent,
+    CreateRecomendacionComponent,
+    EditRecomendacionComponent,
+    CrearMaestroProveedorComponent,
+    EditMaestroProveedorComponent,
+
+    TipoArticuloComponent,
+    CreateTipoArticuloComponent,
+    EditTipoArticuloComponent,
+    TipoServicioComponent,
+    CreateTipoServicioComponent
+
   ],
   imports: [
     BrowserModule,
