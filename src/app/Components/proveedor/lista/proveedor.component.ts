@@ -10,6 +10,7 @@ import {Router} from '@angular/router'
 })
 export class ProveedorComponent implements OnInit {
 
+  id!:number;
   proveedores:Proveedor [] = [];
   displayedColumns: string[] = ['Id',
                                 'Nombre',
@@ -21,6 +22,7 @@ export class ProveedorComponent implements OnInit {
                                 'Estado',
                                 'action'];
 
+
   constructor(private _proveedorService:ProveedorService,private router: Router) {}
 
   ngOnInit(): void {
@@ -29,6 +31,14 @@ export class ProveedorComponent implements OnInit {
       console.log(this.proveedores);
     })
   }
+
+//   eliminar(id: number){
+//     if(confirm('Esta seguro que desea eliminar el registro?')){
+//       this._proveedorService.eliminar(id).subscribe(data =>{
+//         this._proveedorService.getData();
+//       })
+//   }
+// }
 
   agregar(){
     this.router.navigate(['agregarproveedor']);

@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AngularMaterialModule } from './angular-material.module';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { TipoUsuarioComponent } from './Components/tipo-usuario/tipo-usuario.component';
 import { EditTipoUsuarioComponent } from './Components/tipo-usuario/edit-tipo-usuario/edit-tipo-usuario.component';
@@ -17,7 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 import { FormsModule } from '@angular/forms';
-
+import { VistaprincipalComponent } from './Components/proveedor/vistaprincipal/vistaprincipal.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     ProveedorComponent,
-    AgregarComponent
+    AgregarComponent,
+    VistaprincipalComponent
   ],
   imports: [
     BrowserModule,
@@ -37,9 +38,11 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     MDBBootstrapModule.forRoot(),
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

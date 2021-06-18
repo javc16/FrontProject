@@ -6,6 +6,7 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { CreateTipoUsuarioComponent } from './Components/tipo-usuario/create-tipo-usuario/create-tipo-usuario.component';
 import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
+import { VistaprincipalComponent } from './Components/proveedor/vistaprincipal/vistaprincipal.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'agregarproveedor',
     component: AgregarComponent
+  },
+  {
+    path: 'vistaprincipal',
+    component: VistaprincipalComponent
   }
 ];
 

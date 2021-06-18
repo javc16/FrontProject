@@ -10,5 +10,6 @@ export class Proveedor{
     Empresa: string,
     Direccion: string,
     Estado: number,
+    Image: string
   ){}
 }
