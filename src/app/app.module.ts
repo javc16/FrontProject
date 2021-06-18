@@ -30,7 +30,7 @@ import { CreateTipoArticuloComponent } from './Components/tipo-articulo/create-t
 import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-articulo/edit-tipo-articulo.component';
 import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.component';
 import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
-
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -69,7 +69,8 @@ import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-t
     MDBBootstrapModule.forRoot(),
     BrowserAnimationsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ToastrModule.forRoot(), // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]
