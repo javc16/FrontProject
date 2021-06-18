@@ -24,6 +24,11 @@ import { CreateRecomendacionComponent } from './Components/recomendacion/create-
 import { EditRecomendacionComponent } from './Components/recomendacion/edit-recomendacion/edit-recomendacion.component';
 import { CrearMaestroProveedorComponent } from './Components/maestro-proveedor/crear-maestro-proveedor/crear-maestro-proveedor.component';
 import { EditMaestroProveedorComponent } from './Components/maestro-proveedor/edit-maestro-proveedor/edit-maestro-proveedor.component';
+import { TipoArticuloComponent } from './Components/tipo-articulo/tipo-articulo.component';
+import { CreateTipoArticuloComponent } from './Components/tipo-articulo/create-tipo-articulo/create-tipo-articulo.component';
+import { EditTipoArticuloComponent } from './Components/tipo-articulo/edit-tipo-articulo/edit-tipo-articulo.component';
+import { TipoServicioComponent } from './Components/tipo-servicio/tipo-servicio.component';
+import { CreateTipoServicioComponent } from './Components/tipo-servicio/create-tipo-servicio/create-tipo-servicio.component';
 
 
 @NgModule({
@@ -36,6 +41,7 @@ import { EditMaestroProveedorComponent } from './Components/maestro-proveedor/ed
     FooterComponent,
     ProveedorComponent,
     AgregarComponent,
+<<<<<<< HEAD
     RecomendacionComponent,
     MaestroProveedorComponent,
     DashboardComponent,
@@ -43,6 +49,13 @@ import { EditMaestroProveedorComponent } from './Components/maestro-proveedor/ed
     EditRecomendacionComponent,
     CrearMaestroProveedorComponent,
     EditMaestroProveedorComponent
+=======
+    TipoArticuloComponent,
+    CreateTipoArticuloComponent,
+    EditTipoArticuloComponent,
+    TipoServicioComponent,
+    CreateTipoServicioComponent
+>>>>>>> ddcb02a88297a29ded1f812278c321378943a7b2
   ],
   imports: [
     BrowserModule,
