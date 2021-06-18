@@ -17,6 +17,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProveedorComponent } from './Components/proveedor/lista/proveedor.component';
 import { AgregarComponent } from './Components/proveedor/agregar/agregar.component';
 import { FormsModule } from '@angular/forms';
+import { RecomendacionComponent } from './Components/recomendacion/recomendacion.component';
+import { MaestroProveedorComponent } from './Components/maestro-proveedor/maestro-proveedor.component';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import { CreateRecomendacionComponent } from './Components/recomendacion/create-recomendacion/create-recomendacion.component';
+import { EditRecomendacionComponent } from './Components/recomendacion/edit-recomendacion/edit-recomendacion.component';
+import { CrearMaestroProveedorComponent } from './Components/maestro-proveedor/crear-maestro-proveedor/crear-maestro-proveedor.component';
+import { EditMaestroProveedorComponent } from './Components/maestro-proveedor/edit-maestro-proveedor/edit-maestro-proveedor.component';
 
 
 @NgModule({
@@ -28,7 +35,14 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     ProveedorComponent,
-    AgregarComponent
+    AgregarComponent,
+    RecomendacionComponent,
+    MaestroProveedorComponent,
+    DashboardComponent,
+    CreateRecomendacionComponent,
+    EditRecomendacionComponent,
+    CrearMaestroProveedorComponent,
+    EditMaestroProveedorComponent
   ],
   imports: [
     BrowserModule,
